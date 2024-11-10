@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Mundo - Finde deine perfekte Wohngemeinschaft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section-title {
+            color: #4CAF50;
+            margin-top: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links a {
+            margin: 0 1rem;
+            color: white;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Del Mundo</h1>
+        <p>Finde deine perfekte Wohngemeinschaft</p>
+    </header>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#wohnungsuche">Wohnungssuche</a>
+        <a href="#zusatzliche-leistungen">Zusätzliche Leistungen</a>
+        <a href="#impressum">Impressum</a>
+        <a href="#datenschutz">Datenschutz</a>
+        <a href="#agb">AGB</a>
+    </nav>
+    <div class="container">
+        <section id="about-me" class="section">
+            <h2 class="section-title">About Me</h2>
+            <p>Hallo! Ich bin ein Student und habe meine Erfahrungen genutzt, um diese Webseite zu erstellen. Auf Del Mundo kannst du die perfekte Wohngemeinschaft basierend auf persönlichen Präferenzen finden. Egal ob du nach bestimmten Hobbys, Studienfächern, Ländern oder Beziehungsstatus suchst, wir helfen dir, die beste Option zu finden.</p>
+        </section>
+        <section id="wohnungsuche" class="section">
+            <h2 class="section-title">Wohnungssuche</h2>
+            <p>Nutze unsere Suchfunktion, um die perfekte Wohngemeinschaft zu finden. Wähle deine Stadt und gib deine Präferenzen ein:</p>
+            <form>
+                <label for="city">Stadt:</label>
+                <select id="city" name="city">
+                    <option value="berlin">Berlin</option>
+                    <option value="hamburg">Hamburg</option>
+                    <option value="munich">München</option>
+                    <!-- Weitere Städte hinzufügen -->
+                </select>
+                <br><br>
+                <label for="preferences">Präferenzen:</label>
+                <input type="text" id="preferences" name="preferences" placeholder="Hobbies, Studienfächer, etc.">
+                <br><br>
+                <input type="submit" value="Suchen">
+            </form>
+        </section>
+        <section id="zusatzliche-leistungen" class="section">
+            <h2 class="section-title">Zusätzliche Leistungen</h2>
+            <p>Hier findest du Angebote von externen Dienstleistern für Studenten. Ob Handys, Wohnungen oder Fahrräder – hier wirst du fündig:</p>
+            <ul>
+                <li><a href="#">Handys für Studenten</a></li>
+                <li><a href="#">Wohnungen und Zimmer</a></li>
+                <li><a href="#">Fahrräder</a></li>
+                <!-- Weitere Angebote hinzufügen -->
+            </ul>
+        </section>
+        <section id="impressum" class="section">
+            <h2 class="section-title">Impressum</h2>
+            <p>Angaben gemäß § 5 TMG:</p>
+            <p>
+                Dein Name<br>
+                Deine Adresse<br>
+                Deine Stadt, PLZ<br>
+                Deutschland<br>
+            </p>
+            <p>
+                Kontakt:<br>
+                Telefon: Deine Telefonnummer<br>
+                E-Mail: deine.email@example.com
+            </p>
+        </section>
+        <section id="datenschutz" class="section">
+            <h2 class="section-title">Datenschutz</h2>
+            <p>Wir nehmen den Schutz deiner persönlichen Daten sehr ernst. Deine Daten werden vertraulich und gemäß den gesetzlichen Datenschutzvorschriften behandelt. Diese Datenschutzerklärung klärt dich über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten auf unserer Webseite auf.</p>
+            <p>
+                Verantwortliche Stelle:<br>
+                Dein Name<br>
+                Deine Adresse<br>
+                Deine Stadt, PLZ<br>
+                Deutschland<br>
+            </p>
+            <p>
+                Kontakt:<br>
+                Telefon: Deine Telefonnummer<br>
+                E-Mail: deine.email@example.com
+            </p>
+        </section>
+        <section id="agb" class="section">
+            <h2 class="section-title">Allgemeine Geschäftsbedingungen (AGB)</h2>
+            <p>Die folgenden allgemeinen Geschäftsbedingungen (AGB) regeln das Vertragsverhältnis zwischen den Nutzern der Webseite "Del Mundo" und dem Anbieter. Mit der Nutzung der Webseite erklärst du dich mit den folgenden Bedingungen einverstanden:</p>
+            <ul>
+                <li>Die Nutzung der Webseite ist kostenlos.</li>
+                <li>Die Webseite bietet keine Garantie für die Verfügbarkeit der angezeigten Angebote.</li>
+                <li>Die Webseite übernimmt keine Verantwortung für die Inhalte externer Links.</li>
+                <li>Weitere Bedingungen hinzufügen...</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>Folge uns auf Social Media:</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+        </div>
+    </footer>
+</body>
+</html>
